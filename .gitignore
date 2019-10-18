@@ -1,0 +1,11 @@
+*.idea/
+.project
+.classpath
+*.iml
+*.ipr
+*.iws
+*.target/
+.settings/
+bin/
+*.log
+cache/
