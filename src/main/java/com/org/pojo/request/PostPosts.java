@@ -1,4 +1,4 @@
 package com.org.pojo.request;
 
-public class GetRequest2 {
+public class PostPosts {
 }
