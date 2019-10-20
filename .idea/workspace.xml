@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b472f52-6bcf-490e-91e5-e3f428deafef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/pojo/response/GetPosts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/pojo/response/GetPostsList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/org/client/rest/RestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/org/client/rest/RestClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/org/pojo/request/GetRequest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/org/pojo/request/PostPosts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/org/pojo/request/GetRequest2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/org/pojo/request/GetRequest3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/org/pojo/response/GetResponse1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/org/pojo/response/GetResponse2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/org/pojo/response/GetResponse3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/org/client/rest/RestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/org/client/rest/JsonPlaceholderRestClient.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
