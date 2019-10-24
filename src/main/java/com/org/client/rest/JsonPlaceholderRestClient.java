@@ -2,6 +2,7 @@ package com.org.client.rest;
 
 import com.org.pojo.response.GetPosts;
 import com.org.pojo.response.GetPostsList;
+import io.restassured.response.Response;
 
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -27,21 +28,15 @@ public class JsonPlaceholderRestClient {
     }
 
     public static GetPosts getPostsEntity(int id) {
-        return given().
-                    contentType("application/json").
-                    pathParam("id", id).
-                when().
-                    get(baseURL + "{id}").
-                    as(GetPosts.class);
+        return getPostsResponse(1).as(GetPosts.class);
     }
 
-    public static String getPostsResponse(int id) {
+    public static Response getPostsResponse(int id) {
         return given().
                 contentType("application/json").
                 pathParam("id", id).
                 when().
-                get(baseURL + "{id}").
-                prettyPrint();
+                get(baseURL + "{id}");
     }
 
     public static GetPostsList getPostsListEntity() {

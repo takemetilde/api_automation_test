@@ -10,6 +10,6 @@ public class JsonPlaceholderRestClientTest {
     @Test
     public void testJsonPlaceholderRestClient() {
         System.out.println(getPostsEntity(1));
-        getPostsResponse(1);
+        getPostsResponse(1).prettyPrint();
     }
 }
