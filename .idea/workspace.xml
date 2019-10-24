@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b472f52-6bcf-490e-91e5-e3f428deafef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/org/client/rest/JsonPlaceholderRestClientTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/org/client/rest/RestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/org/client/rest/JsonPlaceholderRestClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/org/client/rest/JsonPlaceholderRestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/org/client/rest/JsonPlaceholderRestClient.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +74,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

@@ -13,18 +13,20 @@ import static io.restassured.RestAssured.given;
  */
 public class JsonPlaceholderRestClient {
 
-    public static final String baseURL = "https://jsonplaceholder.typicode.com/posts/";
-    public static URI baseURI;
+    private static final String baseURL = "https://jsonplaceholder.typicode.com/posts/";
+    private static URI baseURI = checkURI(baseURL);
 
-    static {
+    public static URI checkURI(String uri) {
+        URI returnURI = null;
         try {
-            baseURI = new URI(baseURL);
+            returnURI = new URI(uri);
         } catch (URISyntaxException e) {
             e.printStackTrace();
         }
+        return returnURI;
     }
 
-    public GetPosts getPostsEntity(int id) {
+    public static GetPosts getPostsEntity(int id) {
         return given().
                     contentType("application/json").
                     pathParam("id", id).
@@ -33,7 +35,16 @@ public class JsonPlaceholderRestClient {
                     as(GetPosts.class);
     }
 
-    public GetPostsList getPostsListEntity() {
+    public static String getPostsResponse(int id) {
+        return given().
+                contentType("application/json").
+                pathParam("id", id).
+                when().
+                get(baseURL + "{id}").
+                prettyPrint();
+    }
+
+    public static GetPostsList getPostsListEntity() {
         return given().
                     contentType("application/json").
                 when().

@@ -1,0 +1,11 @@
+/home/ubuntu/Desktop/GitHub/api_automation_test/src/main/java/com/org/pojo/header/Header.java
+/home/ubuntu/Desktop/GitHub/api_automation_test/src/main/java/com/org/auth/OAuth1.java
+/home/ubuntu/Desktop/GitHub/api_automation_test/src/main/java/com/org/pojo/response/GetPostsList.java
+/home/ubuntu/Desktop/GitHub/api_automation_test/src/main/java/com/org/auth/BasicAuth.java
+/home/ubuntu/Desktop/GitHub/api_automation_test/src/main/java/com/org/pojo/response/GetPosts.java
+/home/ubuntu/Desktop/GitHub/api_automation_test/src/main/java/com/org/client/rest/JsonPlaceholderRestClient.java
+/home/ubuntu/Desktop/GitHub/api_automation_test/src/main/java/com/org/auth/Auth.java
+/home/ubuntu/Desktop/GitHub/api_automation_test/src/main/java/com/org/pojo/request/PostPosts.java
+/home/ubuntu/Desktop/GitHub/api_automation_test/src/main/java/com/org/auth/OAuth2.java
+/home/ubuntu/Desktop/GitHub/api_automation_test/src/main/java/com/org/client/rest/StatusCodes.java
+/home/ubuntu/Desktop/GitHub/api_automation_test/src/main/java/com/org/client/soap/SoapClient.java
