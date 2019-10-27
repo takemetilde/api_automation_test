@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="com.org.client.rest.JsonPlaceholderRestClientTest" duration-ms="3691" started-at="2019-10-27T05:50:23Z" finished-at="2019-10-27T05:50:26Z">
+  <suite name="com.org.client.rest.JsonPlaceholderRestClientTest" duration-ms="3612" started-at="2019-10-27T05:52:19Z" finished-at="2019-10-27T05:52:22Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="3691" started-at="2019-10-27T05:50:23Z" finished-at="2019-10-27T05:50:26Z">
+    <test name="Command line test" duration-ms="3612" started-at="2019-10-27T05:52:19Z" finished-at="2019-10-27T05:52:22Z">
       <class name="com.org.client.rest.JsonPlaceholderRestClientTest">
-        <test-method status="PASS" signature="testJsonPlaceholderRestClient()[pri:0, instance:com.org.client.rest.JsonPlaceholderRestClientTest@69d9c55]" name="testJsonPlaceholderRestClient" duration-ms="3653" started-at="2019-10-27T05:50:23Z" finished-at="2019-10-27T05:50:26Z">
+        <test-method status="PASS" signature="testJsonPlaceholderRestClient()[pri:0, instance:com.org.client.rest.JsonPlaceholderRestClientTest@69d9c55]" name="testJsonPlaceholderRestClient" duration-ms="3590" started-at="2019-10-27T05:52:19Z" finished-at="2019-10-27T05:52:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testJsonPlaceholderRestClient -->
