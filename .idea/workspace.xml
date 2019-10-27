@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b472f52-6bcf-490e-91e5-e3f428deafef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/client/rest/JsonPlaceHolderSpec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/org/client/rest/JsonPlaceholderRestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/org/client/rest/JsonPlaceholderRestClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/org/client/rest/JsonPlaceholderRestClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/org/client/rest/JsonPlaceholderRestClientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/org/client/rest/JsonPlaceholderRestClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/org/client/rest/JsonPlaceholderRestClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.org.client.rest.JsonPlaceholderRestClientTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.org.client.rest.JsonPlaceholderRestClientTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.org.client.rest.JsonPlaceholderRestClientTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.org.client.rest.JsonPlaceholderRestClientTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/org/client/rest/JsonPlaceholderRestClientTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/org/client/rest/JsonPlaceholderRestClientTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

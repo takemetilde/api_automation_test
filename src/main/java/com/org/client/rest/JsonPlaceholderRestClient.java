@@ -2,7 +2,12 @@ package com.org.client.rest;
 
 import com.org.pojo.response.GetPosts;
 import com.org.pojo.response.GetPostsList;
+import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.filter.log.RequestLoggingFilter;
+import io.restassured.filter.log.ResponseLoggingFilter;
+import io.restassured.http.ContentType;
 import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
 
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -14,7 +19,7 @@ import static io.restassured.RestAssured.given;
  */
 public class JsonPlaceholderRestClient {
 
-    private static final String baseURL = "https://jsonplaceholder.typicode.com/posts/";
+    private static final String baseURL = "https://jsonplaceholder.typicode.com";
     private static URI baseURI = checkURI(baseURL);
 
     public static URI checkURI(String uri) {
@@ -27,24 +32,44 @@ public class JsonPlaceholderRestClient {
         return returnURI;
     }
 
-    public static GetPosts getPostsEntity(int id) {
-        return getPostsResponse(1).as(GetPosts.class);
-    }
+    private static RequestSpecification spec = new RequestSpecBuilder()
+            .setContentType(ContentType.JSON)
+            .setBaseUri(baseURI)
+            .addFilter(new ResponseLoggingFilter())
+            .addFilter(new RequestLoggingFilter())
+            .build();
 
     public static Response getPostsResponse(int id) {
-        return given().
-                contentType("application/json").
-                pathParam("id", id).
-                when().
-                get(baseURL + "{id}");
+        return given()
+                    .spec(spec)
+                    .contentType(ContentType.JSON)
+                    .pathParam("id", id).
+                when()
+                    .get("/posts/{id}");
+    }
+
+    public static GetPosts getPostsEntity(int id) {
+        return getPostsResponse(id)
+                .then()
+                    .statusCode(200)
+                .extract()
+                    .as(GetPosts.class);
+    }
+
+    public static Response getPostListsResponse() {
+        return given()
+                    .spec(spec)
+                    .contentType(ContentType.JSON)
+                .when()
+                    .get("/posts");
     }
 
     public static GetPostsList getPostsListEntity() {
-        return given().
-                    contentType("application/json").
-                when().
-                    get(baseURL).
-                    as(GetPostsList.class);
+        return getPostListsResponse()
+                .then()
+                    .statusCode(200)
+                .extract()
+                    .as(GetPostsList.class);
     }
 
 }
