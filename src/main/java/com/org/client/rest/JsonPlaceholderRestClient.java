@@ -11,6 +11,8 @@ import io.restassured.specification.RequestSpecification;
 
 import java.net.URI;
 import java.net.URISyntaxException;
+import java.util.ArrayList;
+import java.util.List;
 
 import static io.restassured.RestAssured.given;
 
@@ -52,8 +54,8 @@ public class JsonPlaceholderRestClient {
         return getPostsResponse(id)
                 .then()
                     .statusCode(200)
-                .extract()
-                    .as(GetPosts.class);
+                    .extract()
+                        .as(GetPosts.class);
     }
 
     public static Response getPostListsResponse() {
@@ -65,11 +67,16 @@ public class JsonPlaceholderRestClient {
     }
 
     public static GetPostsList getPostsListEntity() {
-        return getPostListsResponse()
+        List<GetPosts> getPostsList = new ArrayList<GetPosts>();
+        getPostListsResponse()
                 .then()
                     .statusCode(200)
-                .extract()
-                    .as(GetPostsList.class);
+                    .extract()
+                        .body()
+                        .jsonPath()
+                        .getList(".", GetPosts.class);
+        GetPostsList getPostsListEntity = new GetPostsList();
+        getPostsListEntity.setPostsList(getPostsList);
+        return getPostsListEntity;
     }
-
 }

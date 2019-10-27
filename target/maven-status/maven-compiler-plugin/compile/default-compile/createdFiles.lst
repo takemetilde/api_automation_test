@@ -1,12 +1,11 @@
-com/org/client/rest/JsonPlaceHolderSpec.class
+com/org/client/rest/StatusCodes.class
+com/org/auth/OAuth1.class
 com/org/auth/Auth.class
+com/org/auth/BasicAuth.class
 com/org/pojo/response/GetPostsList.class
 com/org/pojo/response/GetPosts.class
 com/org/pojo/request/PostPosts.class
-com/org/pojo/header/Header.class
-com/org/client/rest/StatusCodes.class
-com/org/auth/OAuth1.class
-com/org/auth/BasicAuth.class
 com/org/client/rest/JsonPlaceholderRestClient.class
 com/org/auth/OAuth2.class
+com/org/pojo/header/Header.class
 com/org/client/soap/SoapClient.class

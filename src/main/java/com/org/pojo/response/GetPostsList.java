@@ -18,6 +18,10 @@ public class GetPostsList {
         return postsList;
     }
 
+    public void setPostsList(List<GetPosts> getPosts) {
+        postsList = getPosts;
+    }
+
     @Override
     public String toString() {
         return "PostsList{" +

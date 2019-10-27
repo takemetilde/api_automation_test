@@ -2,11 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b472f52-6bcf-490e-91e5-e3f428deafef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/client/rest/JsonPlaceHolderSpec.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/org/client/rest/JsonPlaceholderRestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/org/client/rest/JsonPlaceholderRestClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/org/pojo/response/GetPostsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/org/pojo/response/GetPostsList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/org/client/rest/JsonPlaceholderRestClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/org/client/rest/JsonPlaceholderRestClientTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/org/client/rest/JsonPlaceholderRestClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/org/client/rest/JsonPlaceholderRestClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/org/auth/Auth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/org/auth/BasicAuth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/org/auth/OAuth1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/org/auth/OAuth2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/org/client/rest/JsonPlaceHolderSpec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/org/client/rest/JsonPlaceholderRestClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/org/client/rest/StatusCodes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/org/client/soap/SoapClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/org/pojo/header/Header.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/org/pojo/request/PostPosts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/org/pojo/response/GetPosts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/org/pojo/response/GetPostsList.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.org.client.rest.JsonPlaceholderRestClientTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.org.client.rest.JsonPlaceholderRestClientTest.xml" afterDir="false" />
@@ -40,7 +52,10 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/org/example" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
