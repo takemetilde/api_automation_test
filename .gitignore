@@ -9,3 +9,10 @@ target/
 bin/
 *.log
 cache/
+*.class
+*.jar
+*.war
+*.ear
+*.logs
+.idea/
+.eclipse
